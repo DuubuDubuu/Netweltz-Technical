@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  line-height: 1.6em;
+  font-size: 18px;
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+ 
+}
+
+header{
+  background-color: #00203FFF;
+  border-bottom: #f1dac4 10px solid;
+  min-height: 80px;
+  padding-top: 18px;
+}
+
+header #branding{
+  color: #ADEFD1FF;
+  float: left;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ADEFD1FF;
+}
+
+
+
+header ul{
+  float: right;
+  list-style: none;  
+  margin-top: 12px;
+}
+
+header ul li{
+  display: inline;
+  padding-right: 35px;
+  margin-top: 200px;
+  color: #ADEFD1FF;
+}
+
+#showcase{
+  border: 5px black solid;
+  padding: 20px 0 20px 0;
+  color: #00203FFF;
+  background-color: #ADEFD1FF;
+  border-radius: 2%;
+  margin-bottom: 25px;
+}
+
+#Instructions h3 {
+  text-align: center;
+  font-weight: bold;
+}
+#Instructions p{
+  text-align: center;
+  padding: 2px;
+  margin: 3px;
+}
+#Instructions {
+  border: black 2px solid;
+  padding: 25px 0 25px 0;
+}
+
+.btn{
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+
+
+
+
