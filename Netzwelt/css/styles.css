@@ -72,12 +72,24 @@ header ul li{
 #Instructions {
   border: black 2px solid;
   padding: 25px 0 25px 0;
+  position: relative;
 }
 
 .btn{
   margin-top: 20px;
 }
+.btn1{
+  margin-top: 20px;
+  position: absolute;
+  transform: translateY(-50%);
+  margin-left: 600px;
+}
 
+@media(max-width: 768px){
+  .btn1{
+    margin-left: 210px;
+  }
+}
 
 
 
